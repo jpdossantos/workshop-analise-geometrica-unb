@@ -129,8 +129,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
 .banner {
     position: relative;
-    width: 1050px;
-    /* margin-left: -25px; */
+    width: 1000px;
     font-family: 'Roboto Slab', serif;
 }
 
