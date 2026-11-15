@@ -132,3 +132,10 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     height: auto;
     display: block;
 }
+
+.banner img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+}
