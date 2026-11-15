@@ -147,3 +147,20 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     font-size: 2.6em;
     line-height: 1.2em;
 }
+
+.workshop-title {
+    width: 1000px;
+    margin: 0 auto 12px auto;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.1;
+}
+
+.workshop-title .title1,
+.workshop-title .title2 {
+    font-size: 48px;
+}
+
+.workshop-title .year {
+    font-size: 34px;
+}
