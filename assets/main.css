@@ -161,6 +161,16 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     font-size: 56px;
 }
 
+.workshop-info {
+    width: 1000px;
+    margin: 8px auto 20px auto;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.55em;
+    line-height: 1.45em;
+    color: #505050;
+}
+
 .workshop-title .year {
     font-size: 40px;
 }
