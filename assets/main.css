@@ -164,10 +164,10 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .workshop-info {
     width: 1000px;
     margin: 8px auto 20px auto;
-    text-align: center;
+    text-align: right;
     font-family: 'Roboto Slab', serif;
-    font-size: 1.55em;
-    line-height: 1.45em;
+    font-size: 1.45em;
+    line-height: 1.4em;
     color: #505050;
 }
 
