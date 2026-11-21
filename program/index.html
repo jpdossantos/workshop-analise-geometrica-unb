@@ -3,13 +3,23 @@
 
 <head>
     <base href=".">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon-2.png"/>
-    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon-2.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="../assets/main.css"/>
     <meta name="description" content="Conference Template">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
     <title>Workshop em Análise Geométrica UnB</title>
+
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['\\(', '\\)']],
+          displayMath: [['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -25,140 +35,167 @@
     </div>
 
     <div class="banner">
-        <img src="assets/banner-2.png" alt="Workshop em Análise Geométrica">
+        <img src="../assets/banner-2.png" alt="Workshop em Análise Geométrica">
     </div>
-
 
     <table class="navigation">
         <tr>
             <td class="navigation">
-                <a class="current" title="Conference Home Page" href=".">Home</a>
+                <a title="Conference Home Page" href="../">Home</a>
             </td>
             <!-- <td class="navigation">
-             *   <a title="Register for the Conference" href="registration">Registration</a>
+             *   <a title="Register for the Conference" href="../registration">Registration</a>
              * </td> -->
             <td class="navigation">
-                <a title="Conference Program" href="program">Programa</a> 
+                <a class="current" title="Conference Program" href=".">Programa</a> 
             </td>
             <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Local</a>
+                <a title="Directions to the Conference" href="../directions">Local</a>
             </td>
             <td class="navigation">
-                <a title="Conference Flyer" href="flyer">Cartaz</a>
+                <a title="Conference Flyer" href="../flyer">Cartaz</a>
             </td>
         </tr>
     </table>
 
-    <h2>Conference Program</h2>
+    <h2>Programa</h2>
 
+    <h3>Segunda-feira, 7 de dezembro — tarde</h3>
     <table>
         <tr>
-            <td class="date" rowspan="2">
-                8:30am
-            </td>
-            <td class="title-special">
-                Registration and Coffee &amp; Tea!
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Here&rsquo;s a section in the program that isn&rsquo;t a talk. 
-                Notice that the title is styled differently than the ones for talks.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
             <td class="date" rowspan="3">
-                9:00am
+                A definir
             </td>
             <td class="title">
-                On the geometry of the asymptotic boundary of translators in \( \mathbb{H}^2 \times \mathbb{R} \) 
+                Estabilidade dinâmica de horoesferas sob o fluxo da curvatura média
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                João Paulo dos Santos (Universidade de Brasília)
+                Álvaro Ramos
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                In this talk, we study complete properly immersed translators in the product space H2xR, focusing on their asymptotic behavior at infinity. We classify the asymptotic boundary components of these translators under suitable continuity assumptions. Our approach is inspired by earlier work on minimal and constant mean curvature surfaces in \(\mathbb{H}^2 \times \mathbb{R} \), with a key ingredient being the use of  symmetric translators  as barriers. This is a joint work with Giuseppe Pipoli (Università degli Studi dell’Aquila) and Giuseppe Tinaglia (King's College London).
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                9:25am
-            </td>
-            <td class="title">
-                Local structure of gradient almost Ricci solitons with harmonic Weyl tensor 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Matheus Horácio (Universidade de Brasília)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                In this talk, we investigate a gradient almost Ricci soliton with harmonic Weyl tensor. We first prove that its Ricci tensor has at most three distinct eigenvalues of constant multiplicities in a neighborhood of a regular point of the potential function. Then, we classify those with exactly two distinct eigenvalues. It is worth mentioning that the case with exactly one eigenvalue has already been settled elsewhere. Our results are based on a local representation of these manifolds as multiply warped products of a one dimensional base, having at most two Einstein fibers, which we also obtain in this paper. The proof of the eigenvalue bound is obtained by adapting a technique for gradient Ricci solitons developed by Kim. These results extend a result by Catino, who assumes, in addition, that the Weyl tensor is radially flat, and a result by Kim, who considers the four dimensional case. This is a joint work with Valter Borges (UFPA) and João Paulo dos Santos (UnB).
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                9:50am
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                10:15am
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+                Mostramos que as horoesferas, consideradas como soluções gráficas para o fluxo da curvatura média (FCM) no espaço hiperbólico \( \mathbb{H}^{n+1} \), são dinamicamente estáveis. Mais especificamente, mostramos que qualquer solução do FCM que é dada por um gráfico (de Killing sobre uma superfície totalmente geodésica) que inicialmente seja uma perturbação da horoesfera com decaimento \( C^0 \) no infinito se torna assintótica, com a evolução do fluxo, ao soliton de translação gerado por essa horoesfera. Trabalho em conjunto com Ronaldo de Lima.
             </td>
         </tr>
     </table>
 
     <table>
         <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Título a confirmar
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Sylvia
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Resumo a confirmar.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Monopolos \(G_2\) e Calabi-Yau de massa grande: concentração e abelianização
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Daniel Fadel
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Nesta palestra, irei discutir meu trabalho em conjunto com Gonçalo Oliveira sobre o comportamento de massa grande de monopolos \(SU(2)\) ou \(SO(3)\) em variedades \(G_2\) assintoticamente cônicas e em variedades Calabi-Yau, com classe de monopolo assintótica fixada. Combinando as teorias da compacidade de Parise-Pigati-Stern e Yang Li, identificamos suas correntes limite e mostramos que a massa-renormalizada energia concentra-se em um ciclo integral calibrado de suporte compacto. Em seguida, relacionamos o suporte desse ciclo com o conjunto limite de zeros do campo de Higgs e com um locus limite não-abeliano, identificando o possível excesso deste último sobre o suporte calibrado com uma obstrução a monotonicidade eficaz de codimensão-três. Por fim, provamos a abelianização longe do locus limite não-abeliano.
+            </td>
+        </tr>
+    </table>
+
+
+    <h3>Terça-feira, 8 de dezembro — tarde</h3>
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Variedades hiperbólicas com uma razão perímetro-volume fixa
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Franco Vargas Pallete
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Para qualquer \(n \geq 3\), apresentamos uma família infinita de variedades hiperbólicas completas de volume finito e dimensão \(n\) (contendo tanto exemplos compactos, quanto não compactos) que são incomensuráveis entre si, possuem uma fronteira totalmente geodésica não vazia e compartilham a mesma razão perímetro/volume. A palestra é baseada em um trabalho em conjunto com Sami Douba.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Título a confirmar
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Valter
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Resumo a confirmar.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Famílias Zoll de hipersuperfícies mínimas
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Diego Guajardo
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Uma métrica Riemanniana é Zoll se todas suas geodésicas são fechadas e simples, como por exemplo, a esfera redonda. Surpreendentemente, a esfera possui muitas métricas Zoll. Nesta palestra, vamos falar de uma noção generalizada de métrica de Zoll para o contexto de hipersuperfícies mínimas. Vamos apresentar os exemplos básicos e as deformações conhecidas, fazendo sempre um paralelo com a teoria clássica de métricas Zoll.
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
             <td class="date" rowspan="2">
-                10:40am
+                Noite
             </td>
             <td class="title-special">
-                Coffee &amp; Tea Break
+                Jantar do workshop
             </td>
         </tr>
         <tr>
@@ -168,35 +205,15 @@
         </tr>
     </table>
 
-    <table class="plenary">
-        <tr>
-            <td class="date" rowspan="3">
-                11:00am
-            </td>
-            <td class="title">
-                This is a Plenary Talk!
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Plenary Speaker
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Here&rsquo;s the abstract for the plenary talk! Notice again that the formatting of this time-block is a bit different that the rest of of the talks.
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
 
+    <h3>Quarta-feira, 9 de dezembro</h3>
     <table>
         <tr>
             <td class="date" rowspan="2">
-                Noon
+                
             </td>
             <td class="title-special">
-                Lunch
+                Dia livre
             </td>
         </tr>
         <tr>
@@ -206,126 +223,136 @@
         </tr>
     </table>
 
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                1:30pm
-            </td>
-            <td class="title">
-                Interesting Title of a Talk 
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-                Speaker Name (University)
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
-            </td>
-        </tr>
-    </table>
 
-    <table id="PUTSPEAKERNAMEHERE">
+    <h3>Quinta-feira, 10 de dezembro — tarde</h3>
+    <table>
         <tr>
             <td class="date" rowspan="3">
-                1:55pm
+                A definir
             </td>
             <td class="title">
-                Interesting Title of a Talk 
+                Bifurcações do Toro de Clifford como Superfícies de Willmore em Esferas de Berger
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Speaker Name (University)
+                Caio Rodrigues
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+                O toro de Clifford em uma esfera de Berger de parâmetro \( \tau \) é um ponto crítico do funcional de Willmore para todo \( \tau > 0 \) dando origem a uma família suave de superfícies de Willmore. Por meio de estimativas do índice de Morse ao longo dessa família, aplicamos a teoria de bifurcação para obter novos toros de Willmore simétricos que bifurcam do Toro de Clifford.
             </td>
         </tr>
     </table>
 
     <table>
         <tr>
-            <td class="date" rowspan="2">
-                2:50pm
-            </td>
-            <td class="title-special">
-                Coffee &amp; Tea Break
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
-
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
             <td class="date" rowspan="3">
-                3:10pm
+                A definir
             </td>
             <td class="title">
-                Interesting Title of a Talk 
+                Título a confirmar
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Speaker Name (University)
+                Katyany
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+                Resumo a confirmar.
             </td>
         </tr>
     </table>
 
-    <table id="PUTSPEAKERNAMEHERE">
+    <table>
         <tr>
             <td class="date" rowspan="3">
-                3:35pm
+                A definir
             </td>
             <td class="title">
-                Interesting Title of a Talk 
+                Título a confirmar
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Speaker Name (University)
+                Rafael
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+                Resumo a confirmar.
             </td>
         </tr>
     </table>
 
-    <table class="plenary">
+    <table>
         <tr>
             <td class="date" rowspan="3">
-                4:00pm
+                A definir
             </td>
             <td class="title">
-                This is Another Plenary Talk!
+                Título a confirmar
             </td>
         </tr>
         <tr>
             <td class="speaker">
-                Plenary Speaker
+                Lucas (Alemanha)
             </td>
         </tr>
         <tr>
             <td class="abstract">
-                Filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim et est et euismod. Fusce et metus tempus, pellentesque ex at, convallis nulla. Ut fringilla commodo tincidunt. Fusce sed est eu massa placerat iaculis eu at mauris. Nullam ut mollis nisi, quis malesuada risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ipsum tortor, suscipit non tincidunt vel, bibendum in libero. Nulla facilisi. Pellentesque vitae neque metus. Cras quis est pharetra, vestibulum nisl et, viverra ipsum. Etiam porta dignissim purus, quis tempor metus volutpat eu. Praesent pulvinar libero eget purus tincidunt finibus.
+                Resumo a confirmar.
             </td>
         </tr>
     </table>
+
+
+    <h3>Sexta-feira, 11 de dezembro — manhã</h3>
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Uma fórmula divergente e suas aplicações
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Benedito Leandro
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Em um trabalho recente, provamos uma fórmula divergente para uma variedade Riemanniana arbitrária. Com isso, pudemos provar que o fator espacial, assintótico ao espaço anti-de Sitter, de um espaço-tempo estático que satisfaz a condição de convergência nula (variedades subestáticas), é, de fato, o espaço hiperbólico. Além disso, provamos uma desigualdade do tipo Minkowski para variedades \(V\)-subestáticas (as quais serão definidas).
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="3">
+                A definir
+            </td>
+            <td class="title">
+                Título a confirmar
+            </td>
+        </tr>
+        <tr>
+            <td class="speaker">
+                Lucas Ambrozio
+            </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+                Resumo a confirmar.
+            </td>
+        </tr>
+    </table>
+
 
     <footer>
     <div>
@@ -343,6 +370,7 @@
     </div>
 </footer>
 
+
+
 </body>
 </html>
-
