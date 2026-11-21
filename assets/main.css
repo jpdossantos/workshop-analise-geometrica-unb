@@ -179,14 +179,4 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     font-size: 40px;
 }
 
-ul.organizers{
-    list-style: disc;
-    width: 900px;
-    margin: 12px auto 24px auto;
-    padding-left: 30px;
-}
 
-ul.organizers li{
-    list-style: disc;
-    margin-bottom: 6px;
-}
