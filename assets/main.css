@@ -91,8 +91,12 @@ table.navigation{width:800px;}
 td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
-table.sponsors{width:800px;}
-td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.sponsors{width:auto; margin-left:0;}
+td.sponsor{white-space:nowrap;
+    width:auto;
+    text-align:left;
+    vertical-align:middle;
+    padding:0 15px 0 0;}
 td.sponsor img{width: 100%}
 
 /* The Table on the Program Page */
