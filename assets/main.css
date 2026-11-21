@@ -96,8 +96,8 @@ td.sponsor{white-space:nowrap;
     width:auto;
     text-align:left;
     vertical-align:middle;
-    padding:0 15px 0 0;}
-td.sponsor img{width: 100%}
+    padding:0 12px 0 0;}
+td.sponsor img{height:70px; width:auto;}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
